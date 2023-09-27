@@ -1,4 +1,4 @@
-from models import db, Restaurant, Pizza, RestaurantPizza
+from models import db, Restaurant, Pizza
 from app import app
 
 def seed_data():
