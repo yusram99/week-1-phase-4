@@ -10,4 +10,3 @@ pytest
 flask-migrate
 flask-restful
 flask-swagger-ui
-gunicorn

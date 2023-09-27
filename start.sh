@@ -1,1 +1,0 @@
-gunicorn app.py -w 1 --log-file -
