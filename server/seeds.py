@@ -31,7 +31,6 @@ def seed_data():
         pepperoni = Pizza(name='Pepperoni', ingredients='Tomato sauce, mozzarella, pepperoni')
         veggie_lover = Pizza(name='Veggie Lover', ingredients='Tomato sauce, mozzarella, bell peppers, mushrooms, onions')
 
-        # Add more restaurants and pizzas here
         another_restaurant = Restaurant(name='Another Restaurant', address='456 Elm St')
         hawaiian = Pizza(name='Hawaiian', ingredients='Tomato sauce, mozzarella, ham, pineapple')
         meat_lover = Pizza(name='Meat Lover', ingredients='Tomato sauce, mozzarella, sausage, bacon, pepperoni')
