@@ -29,13 +29,16 @@ To run this project, you need the following:
    git clone https://github.com/yusram99/pizza-restaurant-api.git
 2. Change to the project directory:
 cd pizza-restaurant-api
-3. Create a virtual environment
+3. Install pipenv
+pipenv install && pipenv shell
+4. Create a virtual environment
 python -m venv venv
-4. Activate the virtual environment:
+5. Activate the virtual environment:
 source venv/bin/activate
-5. Install the project dependencies:
+6. Install the project dependencies:
+pip freeze > requirements.txt
 pip install -r requirements.txt
-6. Run the Flask application:
+7. Run the Flask application:
 flask run
 - The API should now be running locally at http://localhost:5000.
 
